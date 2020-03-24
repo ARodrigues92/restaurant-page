@@ -1,0 +1,32 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A simple restaurant page for the Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARodrigues92/restaurant-page.git"
+  },
+  "author": "Andre Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARodrigues92/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/ARodrigues92/restaurant-page#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "prettier": "^2.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
