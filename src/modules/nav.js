@@ -7,6 +7,7 @@ const homePage = container => {
     const li = document.createElement('li');
     const a = document.createElement('a');
     a.setAttribute('href', '#');
+    a.classList.add('nav-links');
     a.innerText = element;
     li.append(a);
     ul.append(li);
