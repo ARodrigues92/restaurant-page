@@ -1,9 +1,9 @@
-import nav from './modules/nav';
-import homePage from './modules/home';
+import appendNav from './modules/nav';
+import appendHome from './modules/home';
 
-const content = document.getElementById('content');
-nav(content);
-homePage(content);
+const container = document.getElementById('content');
+appendNav(container);
+appendHome(container);
 
 const links = document.querySelectorAll('.nav-links');
 
