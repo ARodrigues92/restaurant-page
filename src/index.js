@@ -1,13 +1,13 @@
 import appendNav from './modules/nav';
 import appendHome from './modules/home';
 
+const navContainer = document.getElementById('nav-container');
 const container = document.getElementById('content');
-appendNav(container);
+appendNav(navContainer);
 appendHome(container);
 
 const goToHome = () => {
   container.innerHTML = '';
-  appendNav(container);
   appendHome(container);
 };
 
