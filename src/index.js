@@ -1,5 +1,6 @@
 import appendNav from './modules/nav';
 import appendHome from './modules/home';
+import appendMenuDisplay from './modules/menu-display';
 
 const navContainer = document.getElementById('nav-container');
 const container = document.getElementById('content');
@@ -13,6 +14,7 @@ const goToHome = () => {
 
 const goToMenu = () => {
   container.innerHTML = '';
+  appendMenuDisplay(container);
 };
 
 const goToContacts = () => {
