@@ -1,6 +1,7 @@
 import appendNav from './modules/nav';
 import appendHome from './modules/home';
 import appendMenuDisplay from './modules/menu-display';
+import appendContacts from './modules/contacts';
 
 const navContainer = document.getElementById('nav-container');
 const container = document.getElementById('content');
@@ -19,6 +20,7 @@ const goToMenu = () => {
 
 const goToContacts = () => {
   container.innerHTML = '';
+  appendContacts(container);
 };
 
 const links = document.querySelectorAll('.nav-links');
